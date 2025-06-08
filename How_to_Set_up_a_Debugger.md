@@ -37,7 +37,8 @@ format used store and transport data. It is easy to read.
     ],
 ```
 4. in this case we can use the gbd launch to set up values in our program. Usually these are filled with the directories of the program we want to debug and our debugger path
-5. once this is set up, you can run your debugger by choosing a breakpoint, a particular line for your program to halt the thread and be able to execute your code line by line. 
+5. once this is set up, you can run your debugger by choosing a breakpoint, a particular line for your program to halt the thread and be able to execute your code line by line.
+   - ***Why Breakpoints***? Realistically the debugger doesn't know when to pause an execution, by setting a breakpoint why are telling the machine to stop at a certain line/piece of code to check variables, memory, etc.
 6. on the left you can view your variables and how they change over time, you can also **pin** them by setting them to <ins>watch</ins>
 7. ***HAPPY DEBUGGING***
 
