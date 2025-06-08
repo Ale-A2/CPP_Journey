@@ -42,6 +42,6 @@ format used store and transport data. It is easy to read.
 }
 ```
 4- in this case we can use the gbd launch to set up values in our program. Usually these are filled with the directories of the program we want to debug and our debugger path
-5- once this is set up, you can run your debugger by choosing a breakpoint, a particular line for your program to halt the thread and be able to execute your code line by line.
+5- once this is set up, you can run your debugger by choosing a breakpoint, a particular line for your program to halt the thread and be able to execute your code line by line. 
 6- on the left you can view your variables and how they change over time, you can also **pin** them by setting them to <ans> watch </ans>
 7- *** HAPPY DEBUGGING *** 
