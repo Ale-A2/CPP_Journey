@@ -5,7 +5,7 @@ what elements need to be deallocated.
 * Cannot deallocate memory
 * Only non-dynamic memory members are cleaned
 * mishandle heap space
-## Why can't I deallocate memory thought my object?
+## Why can't I deallocate memory through my object?
 **You don't have access to the data member**. A big part of using classes if for abstraction to separate the user from how a programs works. We do not want them 
 messing around with important since it can compromise the functionality of a code. So, to make sure the user can have manage memory even without full acesss, a 
 destructor is provided. 
