@@ -6,9 +6,9 @@ what elements need to be deallocated.
 * Only non-dynamic memory members are cleaned
 * mishandle heap space
 ## Why can't I deallocate memory through my object?
-**You don't have access to the data member**. A big part of using classes if for abstraction to separate the user from how a programs works. We do not want them 
-messing around with important since it can compromise the functionality of a code. So, to make sure the user can have manage memory even without full acesss, a 
-destructor is provided. 
+**You don't have access to the data member**. A big part of using classes is for abstraction- separate the user from how a programs works. We do not want them 
+messing around with important data since it can compromise the functionality of a code. So, to make sure the user can have manage memory even without full acesss, a 
+must destructor be provided. 
 
 Also make your freed pointers *null*. You want an easy way to identify the status of a pointer. It makes easier to ensure double delete is not done, and that it 
 doesn't point to some empty space in heap. 
